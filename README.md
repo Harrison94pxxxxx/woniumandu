@@ -5,11 +5,22 @@
 
 ## 运行截图:
 
+### 界面展示
 <img width="51%" height="100%" src="https://github.com/Harrison94pxxxxx/woniumandu/raw/master/static/gif/dsc_1.gif"/>
+
+### 换源及切换章节
 <img width="51%" height="100%" src="https://github.com/Harrison94pxxxxx/woniumandu/raw/master/static/gif/dsc_6.gif"/>
+
+### 收藏小说功能
 <img width="51%" height="100%" src="https://github.com/Harrison94pxxxxx/woniumandu/raw/master/static/gif/dsc_2.gif"/>
+
+### 搜索记录和推荐标签
 <img width="51%" height="100%" src="https://github.com/Harrison94pxxxxx/woniumandu/raw/master/static/gif/dsc_3.gif"/>
+
+### 分类页
 <img width="51%" height="100%" src="https://github.com/Harrison94pxxxxx/woniumandu/raw/master/static/gif/dsc_4.gif"/>
+
+### 排行榜
 <img width="51%" height="100%" src="https://github.com/Harrison94pxxxxx/woniumandu/raw/master/static/gif/dsc_5.gif"/>
 
 ## 怎样运行
