@@ -6,3 +6,6 @@
 运行截图:
 ![img](https://github.com/Harrison94pxxxxx/woniumandu/tree/master/static/gif/dsc_1.gif)
 ![img](https://github.com/Harrison94pxxxxx/woniumandu/tree/master/static/gif/dsc_2.gif)
+![img](https://github.com/Harrison94pxxxxx/woniumandu/tree/master/static/gif/dsc_3.gif)
+![img](https://github.com/Harrison94pxxxxx/woniumandu/tree/master/static/gif/dsc_4.gif)
+![img](https://github.com/Harrison94pxxxxx/woniumandu/tree/master/static/gif/dsc_5.gif)
