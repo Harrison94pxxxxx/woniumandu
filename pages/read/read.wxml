@@ -1,0 +1,85 @@
+<!--read.wxml-->
+<view class="read-container" wx:if="{{showToggleChapter}}">
+  <view class="read-title-container">
+    <p class="read-title">{{readMain.title}}</p>
+  </view>
+  <view class="read-main-container" bindtap="showSettingBar">
+    <p class="read-main">{{readMain.body}}</p>
+    <p wx:if="{{err}}">{{err}}</p>
+  </view>
+  <view class="read-settingBar-bottom-container" wx:if="{{showSettingBar}}">
+    <view class="read-settingBar-bottom">
+      <view class="read-settingBar-bottom-item" bindtap="showChapters">
+        <image src="./../../static/img/chapters.png"></image>
+        <p>目录</p>
+      </view>
+      <view class="read-settingBar-bottom-item">
+        <image src="./../../static/img/theme.png"></image>
+        <p>夜间</p>
+      </view>
+      <view class="read-settingBar-bottom-item" bindtap="showChangeSource">
+        <image src="./../../static/img/changeSource.png"></image>
+        <p>换源</p>
+      </view>
+      <view class="read-settingBar-bottom-item" bindtap="showSettingDetail">
+        <image src="./../../static/img/setting-white.png"></image>
+        <p>设置</p>
+      </view>
+      <view class="read-settingBar-bottom-item">
+        <image src="./../../static/img/feedback.png"></image>
+        <p>反馈</p>
+      </view>
+    </view>
+  </view>
+  <view class="read-toggleChapter-container" wx:if="{{showToggleChapter}}">
+    <view class="prev-chapter-btn" bindtap="prevChapter">
+      <p>上一章</p>
+    </view>
+    <view class="next-chapter-btn" bindtap="nextChapter">
+      <p>下一章</p>
+    </view>
+  </view>
+  <view class="read-chapters-container" wx:if="{{showChapters}}">
+    <view class="read-chapters">
+      <view class="read-chapters-item" wx:for="{{chapters}}">
+        <p bindtap="changeChapter" data-index="{{index}}">{{item.title}}</p>
+      </view>
+    </view>
+  </view>
+  <view class="read-setting-detail-container" wx:if="{{showSettingDetail}}">
+    <view class="read-setting-detail">
+      <view class="font-control-container">
+        <view class="font-control-btn">
+          <image src="./../../static/img/shrink-font.png"></image>
+        </view>
+        <view class="font-control-btn">
+          <image src="./../../static/img/magnify-font.png"></image>
+        </view>
+      </view>
+      <view class="spacing-control-container">
+        <view class="spacing-control-btn">
+          <image src="./../../static/img/narrow-spacing.png"></image>
+        </view>
+        <view class="spacing-control-btn">
+          <image src="./../../static/img/normal-spacing.png"></image>
+        </view>
+        <view class="spacing-control-btn">
+          <image src="./../../static/img/wide-spacing.png"></image>
+        </view>
+      </view>
+      <view class="theme-control-container">
+        <view class="theme-control-btn-1"></view>
+        <view class="theme-control-btn-2"></view>
+        <view class="theme-control-btn-3"></view>
+        <view class="theme-control-btn-4"></view>
+      </view>
+    </view>
+  </view>
+  <view class="read-changeSource-container" wx:if="{{showChangeSource}}">
+    <view class="read-changeSource-item" wx:for="{{readSource}}">
+    <image src="./../../static/img/checked.png" wx:if="{{item.checked}}"></image>
+    <p bindtap="changeSource" data-index="{{index}}">{{item.name}}</p>
+    </view>
+  </view>
+</view>
+<view class="mask-layer" wx:if="{{showMaskLayer}}" bindtap="hideAll"></view>

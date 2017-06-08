@@ -1,0 +1,30 @@
+/* my.wxss */
+.my-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.my-container > image {
+    width: 400rpx;
+    height: 400rpx;
+    margin-top: 200rpx;
+    border-radius: 50%;
+}
+
+.my-dsc {
+    width: 80%;
+    margin-top: 50rpx;
+}
+
+.my-dsc > p {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20rpx;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    color: #8E8E8E;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}

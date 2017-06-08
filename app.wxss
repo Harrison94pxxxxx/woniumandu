@@ -1,0 +1,2 @@
+/**app.wxss**/
+@import "pages/template/loading/loading.wxss";  

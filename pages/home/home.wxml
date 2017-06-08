@@ -1,0 +1,16 @@
+<!--home.wxml-->
+<import src="../template/loading/loading.wxml" />
+<template is="loading" data="{{loading}}"></template>
+<view class="home-container">
+  <view class="home-title">
+    <p>我的书架</p>
+  </view>
+  <view class="home-item-container">
+    <view class="home-item" wx:for="{{homeBooks}}" wx:for-index="index">
+      <image class="home-item-image" bindtap="getBookDetail" data-index="{{index}}" src="{{item.image}}">
+      </image>
+      <p class="home-item-title">{{item.name}}</p>
+      <p class="home-item-author">{{item.author}}</p>
+    </view>
+  </view>
+</view>

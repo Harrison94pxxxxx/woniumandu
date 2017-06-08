@@ -1,0 +1,124 @@
+/* sort.wxss */
+
+.sort-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.sort-male-container {
+  width: 100%;
+}
+
+.sort-male-title {
+  display: flex;  
+  width: 100%;
+  height: 50px;
+  margin-left: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sort-male-title > p {
+  height: 14px;  
+  font-size: 14px;
+  color: #999;
+  font-weight: 400;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+.sort-male-item {
+  float: left;
+  width: 33%;
+  height: 70px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+  border-right: 1px solid #f8f8f8;
+}
+
+.sort-male-item > view{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sort-male-item-name {
+  width: 100%;
+  height: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+  font-weight: 700;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+.sort-male-item-count {
+  width: 100%;
+  height: 13px;
+  padding-top: 3px;
+  text-align: center;
+  font-size: 13px;
+  color: #CCC;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+.sort-female-container {
+  width: 100%;
+}
+
+.sort-female-title {
+  display: flex;  
+  width: 100%;
+  height: 50px;
+  margin-left: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sort-female-title > p {
+  height: 14px;  
+  font-size: 14px;
+  color: #999;
+  font-weight: 400;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+.sort-female-item {
+  float: left;
+  width: 33%;
+  height: 70px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+  border-right: 1px solid #f8f8f8;
+}
+
+.sort-female-item > view {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sort-female-item-name {
+  width: 100%;
+  height: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+  font-weight: 700;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+.sort-female-item-count {
+  width: 100%;
+  height: 13px;
+  padding-top: 3px;
+  text-align: center;
+  font-size: 13px;
+  color: #CCC;
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}

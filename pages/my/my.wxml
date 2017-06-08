@@ -1,0 +1,8 @@
+<!--my.wxml-->
+<view class="my-container">
+    <image src="../../static/img/my_logo.jpg"></image>
+    <view class="my-dsc">
+        <P>该小程序只做学习和测试用途，如有侵权请告知以便处理</P>
+        <p>GitHub:<span style="color:#4A708B">https://github.com/Harrison94pxxxxx</span></p>
+    </view>
+</view>

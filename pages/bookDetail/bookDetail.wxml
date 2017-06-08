@@ -1,0 +1,41 @@
+<!--bookDetail.wxml-->
+<import src="../template/loading/loading.wxml"/>
+<template is="loading" data="{{loading}}"></template>
+<view class="bookDetail-info-container">
+<view class="bookDetail-info-top">
+<image class="bookDetail-header-cover" src="{{bookDetail.cover}}"></image>
+<view class="bookDetail-header-info-container">
+<p class="bookDetail-header-title">{{bookDetail.title}}</p>
+<p class="bookDetail-header-author">{{bookDetail.author}}</p>
+<p class="bookDetail-header-info">{{bookDetail.wordCount}}|{{bookDetail.minorCate}}</p>
+</view>
+</view>
+<view class="bookDetail-info-middle">
+<button class="{{followTheme}}" bindtap="followBook">{{follow}}</button>
+<button class="bookDetail-header-btn" bindtap="startRead">开始阅读</button>
+</view>
+<view class="bookDetail-info-bottom">
+<view class="bookDetail-middle-popularity-container">
+<p class="bookDetail-info-bottom-p1">追书人气</p>
+<p class="bookDetail-info-bottom-p2">{{bookDetail.latelyFollower}}</p>
+</view>
+<view class="bookDetail-middle-remain-container">
+<p class="bookDetail-info-bottom-p1">读者留存率</p>
+<p class="bookDetail-info-bottom-p2">{{bookDetail.retentionRatio}}%</p>
+</view>
+<view class="bookDetail-middle-serializeWordCount-container">
+<p class="bookDetail-info-bottom-p1">日更新字数</p>
+<p class="bookDetail-info-bottom-p2">{{bookDetail.serializeWordCount}}</p>
+</view>
+</view>
+</view>
+<view class="bookDetail-tags-container">
+<view class="bookDetail-tag" wx:for="{{bookDetail.tags}}" style="background:{{tagsColor[index]}}">
+<p>{{item}}</p>
+</view>
+</view>
+<view class="bookDetail-longIntro-container">
+<p>{{bookDetail.longIntro}}</p>
+</view>
+<view class="bookDetail-comments-container">
+</view>

@@ -1,0 +1,20 @@
+<!--search.wxml-->
+<view class="search-container">
+  <view class="search-main-container">
+    <input placeholder="搜索..." bindconfirm="getSearchDetail" type="text" />
+  </view>
+  <view class="search-recommend-container">
+    <view class="search-recommend-item" wx:for="{{recommends}}" style="background:{{recommend_color[index]}}">
+      <p bindtap="getRecommendDetail" data-name="{{item}}">{{item}}</p>
+    </view>
+  </view>
+  <view class="search-history-container">
+    <view class="search-history-title">
+      <p>搜索历史</p>
+    </view>
+    <view class="search-history-item" wx:for="{{searchHistory}}">
+        <p bindtap="getHistoryDetail" data-index="{{index}}">{{item}}</p>
+        <image bindtap="deleteHistory" data-index="{{index}}" src="../../static/img/delete.png"></image>
+    </view>
+  </view>
+</view>

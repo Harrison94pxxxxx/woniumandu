@@ -1,0 +1,67 @@
+/* home.wxss */
+.home-container {
+    width: 100%;
+}
+
+.home-title {
+    width: 100%;
+    height: 60px;
+    padding-left: 8%;
+    background-color: #EAEAEA;
+}
+
+.home-title > p {
+  height: 60px;
+  line-height: 60px;
+  font-size: 16px;
+  color: #7F7F7F;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+.home-item-container {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 98%;
+  margin: 0 auto;
+  padding-top: 50px
+}
+
+.home-item {
+  display: flex;
+  width: 33%;
+  height: 150px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.home-item-image {
+  width: 90px;
+  height: 110px;
+}
+
+.home-item-title {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin-top: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  overflow: hidden
+}
+
+.home-item-author {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 11px;
+  color: black;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}

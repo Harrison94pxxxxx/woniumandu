@@ -1,0 +1,122 @@
+/* pages/rankList/rankList.wxss */
+.rankList-container {
+  width: 100%;
+}
+
+.rankList-male-container {
+  width: 100%;
+}
+
+.rankList-male-title {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #EAEAEA;
+}
+
+.rankList-male-title > p {
+  height: 20px;
+  padding-left: 15px;
+  line-height: 20px;
+  font-size: 14px;
+  color: 	#7F7F7F;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+.rankList-male {
+   width: 100%;
+}
+
+.rankList-male-item {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.rankList-male-item-image-wrapper {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.rankList-male-item-image-wrapper > image {
+  width: 20px;
+  height: 20px;
+}
+
+.rankList-male-item > p {
+  height: 20px;
+  padding-left: 10px;
+  line-height: 20px;
+  font-size: 15px;
+  color: 	black;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+.rankList-female-container {
+  width: 100%;
+}
+
+.rankList-female-title {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #EAEAEA;
+}
+
+.rankList-female-title > p {
+  height: 20px;
+  padding-left: 15px;
+  line-height: 20px;
+  font-size: 14px;
+  color: 	#7F7F7F;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+.rankList-female {
+   width: 100%;
+}
+
+.rankList-female-item {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.rankList-female-item-image-wrapper {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.rankList-female-item-image-wrapper > image {
+  width: 20px;
+  height: 20px;
+}
+
+.rankList-female-item > p {
+  height: 20px;
+  padding-left: 10px;
+  line-height: 20px;
+  font-size: 15px;
+  color: 	black;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}

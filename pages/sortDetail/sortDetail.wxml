@@ -1,0 +1,19 @@
+<!--sortDetail.wxml-->
+<view class="sortDetail-container">
+  <scroll-view class="sortDetail-title-container" scroll-x="true">
+    <view class="sortDetail-title-item" wx:for="{{category_now}}">
+      <p class="{{tagTheme[index]}}" data-index="{{index}}" bindtap="changeBookList">{{item}}</p>
+    </view>
+  </scroll-view>
+  <view class="sortDetail-container">
+    <view class="sortDetail-item" wx:for="{{bookListNow}}">
+      <image src="{{item.cover}}"></image>
+      <view class="sortDetail-item-info" bindtap="getBookDetail" data-id="{{item._id}}">
+        <p class="sortDetail-item-info-title">{{item.title}}</p>
+        <p class="sortDetail-item-info-author">{{item.author}} | {{item.majorCate}}</p>
+        <p class="sortDetail-item-info-shortIntro">{{item.shortIntro}}</p>
+        <p class="sortDetail-item-info-renqi">{{item.latelyFollower}}人气 | {{item.retentionRatio}}%读者留存</p>
+      </view>
+    </view>
+  </view>
+</view>

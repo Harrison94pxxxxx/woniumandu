@@ -1,0 +1,17 @@
+<!--rankDetail.wxml-->
+<view class="rankDetai-container">
+  <view class="rankDetail-title-container">
+    <p>{{rankDetail.title}}</p>
+  </view>
+  <view class="rankDetail-item-container">
+    <view class="rankDetail-item" wx:for="{{rankDetail.books}}">
+      <image src="{{item.cover}}"></image>
+      <view class="rankDetail-item-info" bindtap="getBookDetail" data-id="{{item._id}}">
+        <p class="rankDetail-item-info-title">{{item.title}}</p>
+        <p class="rankDetail-item-info-author">{{item.author}} | {{item.cat}}</p>
+        <p class="rankDetail-item-info-shortIntro">{{item.shortIntro}}</p>
+        <p class="rankDetail-item-info-renqi">{{item.latelyFollower}}人气 | {{item.retentionRatio}}%读者留存</p>
+      </view>
+    </view>
+  </view>
+</view>

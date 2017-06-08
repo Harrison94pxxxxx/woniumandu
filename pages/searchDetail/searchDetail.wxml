@@ -1,0 +1,17 @@
+<!--searchDetail.wxml-->
+<view class="searchDetail-container">
+  <view class="searchDetail-title">
+    <p>搜索结果</p>
+  </view>
+  <view class="searchDetail-item-container">
+    <view class="searchDetail-item" wx:for="{{searchResult}}">
+      <image src="{{item.cover}}"></image>
+      <view class="searchDetail-item-info" bindtap="getBookDetail" data-id="{{item._id}}">
+        <p class="searchDetail-item-info-title">{{item.title}}</p>
+        <p class="searchDetail-item-info-author">{{item.author}} | {{item.cat}}</p>
+        <p class="searchDetail-item-info-shortIntro">{{item.shortIntro}}</p>
+        <p class="searchDetail-item-info-renqi">{{item.latelyFollower}}人气 | {{item.retentionRatio}}%读者留存</p>
+      </view>
+    </view>
+  </view>
+</view>

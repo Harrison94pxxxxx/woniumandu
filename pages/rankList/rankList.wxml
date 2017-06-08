@@ -1,0 +1,89 @@
+<!--pages/rankList/rankList.wxml-->
+<view class="rankList-container">
+  <view class="rankList-male-container">
+    <view class="rankList-male-title">
+      <p>男生</p>
+    </view>
+    <view class="rankList-male" data-sex="male" data-index="0" bindtap="getRankDetailUrl">
+      <view class="rankList-male-item">
+        <view class="rankList-male-item-image-wrapper" style="background:#EE4000">
+          <image src="../../static/img/hot.png"></image>
+        </view>
+        <p>热搜榜TOP100</p>
+      </view>
+      <view class="rankList-male-item" data-sex="male" data-index="1" bindtap="getRankDetailUrl">
+        <view class="rankList-male-item-image-wrapper" style="background:#EE9A49">
+          <image src="../../static/img/liucun.png"></image>
+        </view>
+        <p>留存榜TOP100</p>
+      </view>
+      <view class="rankList-male-item" data-sex="male" data-index="2" bindtap="getRankDetailUrl">
+        <view class="rankList-male-item-image-wrapper" style="background:#43CD80">
+          <image src="../../static/img/wanjie.png"></image>
+        </view>
+        <p>完结榜TOP100</p>
+      </view>
+      <view class="rankList-male-item" data-sex="male" data-index="10" bindtap="getRankDetailUrl">
+        <view class="rankList-male-item-image-wrapper" style="background:#EE2C2C">
+          <image src="../../static/img/qidian.png"></image>
+        </view>
+        <p>起点月票榜TOP100</p>
+      </view>
+      <view class="rankList-male-item" data-sex="male" data-index="11" bindtap="getRankDetailUrl">
+        <view class="rankList-male-item-image-wrapper" style="background:#575757">
+          <image src="../../static/img/zhulang.png"></image>
+        </view>
+        <p>纵横月票榜TOP100</p>
+      </view>
+      <view class="rankList-male-item" data-sex="male" data-index="13" bindtap="getRankDetailUrl">
+        <view class="rankList-male-item-image-wrapper" style="background:#5CACEE">
+          <image src="../../static/img/zhulang.png"></image>
+        </view>
+        <p>逐浪月票榜TOP100</p>
+      </view>
+    </view>
+  </view>
+  <view class="rankList-female-container">
+    <view class="rankList-female-title">
+      <p>女生</p>
+    </view>
+    <view class="rankList-female">
+          <view class="rankList-female-item" data-sex="female" data-index="0" bindtap="getRankDetailUrl">
+        <view class="rankList-female-item-image-wrapper" style="background:#EE4000">
+          <image src="../../static/img/hot.png"></image>
+        </view>
+        <p>热搜榜TOP100</p>
+      </view>
+      <view class="rankList-female-item" data-sex="female" data-index="1" bindtap="getRankDetailUrl">
+        <view class="rankList-female-item-image-wrapper" style="background:#EE9A49">
+          <image src="../../static/img/liucun.png"></image>
+        </view>
+        <p>留存榜TOP100</p>
+      </view>
+      <view class="rankList-female-item" data-sex="female" data-index="2" bindtap="getRankDetailUrl">
+        <view class="rankList-female-item-image-wrapper" style="background:#43CD80">
+          <image src="../../static/img/wanjie.png"></image>
+        </view>
+        <p>完结榜TOP100</p>
+      </view>
+      <view class="rankList-female-item" data-sex="female" data-index="9" bindtap="getRankDetailUrl">
+        <view class="rankList-female-item-image-wrapper" style="background:#EE2C2C">
+          <image src="../../static/img/qidian.png"></image>
+        </view>
+        <p>起点月票榜TOP100</p>
+      </view>
+      <view class="rankList-female-item" data-sex="female" data-index="7" bindtap="getRankDetailUrl">
+        <view class="rankList-female-item-image-wrapper" style="background:#575757">
+          <image src="../../static/img/shuqi.png"></image>
+        </view>
+        <p>书旗月票榜TOP100</p>
+      </view>
+      <view class="rankList-female-item" data-sex="female" data-index="10" bindtap="getRankDetailUrl">
+        <view class="rankList-female-item-image-wrapper" style="background:#5CACEE">
+          <image src="../../static/img/xiaoxiang.png"></image>
+        </view>
+        <p>潇湘月票榜TOP100</p>
+      </view>
+    </view>
+  </view>
+</view>

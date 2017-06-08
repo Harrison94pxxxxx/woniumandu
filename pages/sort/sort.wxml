@@ -1,0 +1,25 @@
+<!--sort.wxml-->
+<view class="sort-container">
+  <view class="sort-male-container">
+    <view class="sort-male-title">
+      <p>男生</p>
+    </view>
+    <view class="sort-male-item" wx:for="{{sortMain.male}}">
+      <view bindtap="getsortDetail" data-name="{{item.name}}" data-sex="male">
+        <p class="sort-male-item-name">{{item.name}}</p>
+        <p class="sort-male-item-count">{{item.bookCount}}本</p>
+      </view>
+    </view>
+  </view>
+  <view class="sort-female-container">
+    <view class="sort-female-title">
+      <p>女生</p>
+    </view>
+    <view class="sort-female-item" wx:for="{{sortMain.female}}">
+      <view bindtap="getsortDetail" data-name="{{item.name}}" data-sex="female">
+        <p class="sort-female-item-name">{{item.name}}</p>
+        <p class="sort-female-item-count">{{item.bookCount}}本</p>
+      </view>
+    </view>
+  </view>
+</view>
