@@ -10,7 +10,7 @@
 ![img](http://i1.buimg.com/596909/0fc834742e4ae66c.gif)
 ![img](http://i1.buimg.com/596909/70beca29fe79deb9.gif)
 
-##怎样运行
+## 怎样运行
 > 请clone到本地，然后使用微信开发者工具编译并运行小程序
 
-###欢迎喜欢该项目的朋友Issue、Fork、Star😄
+### 欢迎喜欢该项目的朋友Issue、Fork、Star😄
